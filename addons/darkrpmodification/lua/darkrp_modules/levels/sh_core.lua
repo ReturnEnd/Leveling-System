@@ -173,8 +173,3 @@ hook.Add('PlayerInitialSpawn', 'manolis:MVLevels:PlayerSpawnB',PlayerInitialSpaw
 
 DarkRP.registerDarkRPVar("level", fp{fn.Flip(net.WriteInt), 32}, fp{net.ReadInt, 32})
 DarkRP.registerDarkRPVar('xp', net.WriteDouble, net.ReadDouble)
-DarkRP.registerDarkRPVar("prestige",fp{fn.Flip(net.WriteInt), 32}, fp{net.ReadInt, 32})
-
-
-
-
